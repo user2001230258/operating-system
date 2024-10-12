@@ -1,22 +1,80 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
 }
 
-#output {
-    margin-top: 20px;
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+    text-align: center;
+}
+
+.input-section {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Đặt bảng ở giữa màn hình */
 table {
     width: 100%;
+    margin: 20px auto;
     border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
     text-align: center;
-    padding: 10px;
 }
 
-.highlight {
-    background-color: yellow;
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Đặt bảng chứa output ra giữa màn hình */
+#output {
+    margin: 20px auto;
+    width: 80%; /* Tùy chỉnh độ rộng bảng nếu cần */
+    text-align: center;
 }
