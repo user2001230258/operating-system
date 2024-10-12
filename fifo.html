@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFO Page Replacement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>FIFO Page Replacement Algorithm</h1>
+    <div>
+        <label for="pages">Enter pages (comma separated):</label>
+        <input type="text" id="pages" placeholder="Example: 7, 0, 1, 2, 0, 3, 0, 4, 2">
+    </div>
+    <div>
+        <label for="frames">Number of Frames:</label>
+        <input type="number" id="frames" value="3">
+    </div>
+    <button onclick="runFIFO()">Run</button>
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
