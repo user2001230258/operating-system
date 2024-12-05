@@ -47,7 +47,6 @@ button:hover {
     background-color: #218838;
 }
 
-/* Đặt bảng ở giữa màn hình */
 table {
     width: 100%;
     margin: 20px auto;
@@ -72,9 +71,8 @@ tr:hover {
     background-color: #f1f1f1;
 }
 
-/* Đặt bảng chứa output ra giữa màn hình */
 #output {
     margin: 20px auto;
-    width: 80%; /* Tùy chỉnh độ rộng bảng nếu cần */
+    width: 80%;
     text-align: center;
 }
